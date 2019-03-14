@@ -27,3 +27,15 @@
     @include circle();
   }
 }
+.sidenav--closed{
+  .topbar{
+    .nav-bar{
+      &--left {
+        width: 70px;
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+}
