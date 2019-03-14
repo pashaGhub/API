@@ -1,0 +1,14 @@
+stats:
+  visits: Lankytojai šiandien
+  revenue: Bendrai
+  sales: Šiandien pardavimai
+  conversion: Konversija
+
+charts:
+  y_report: METINĖ PARDAVIMŲ ATASKAITA
+  revenue: BENDROS PAJAMOS
+
+users:
+  admin: Administratorius
+  user: Naudotojas
+  moderator: Moderatorius

@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Grundfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pashaGhub/API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pashaGhub/API/issues"
+  },
+  "homepage": "https://github.com/pashaGhub/API#readme",
+  "devDependencies": {
+    "chart.js": "^2.7.3",
+    "grunt": "",
+    "grunt-assemble": "^0.6.3",
+    "grunt-svg-sprite": "^1.5.0"
+  },
+  "dependencies": {
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "handlebars": "^4.1.0",
+    "sass": "^1.17.2"
+  }
+}

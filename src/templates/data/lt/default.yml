@@ -1,0 +1,21 @@
+lang: lt
+
+sidebar:
+  main: Pagrindinis
+  dashboard: Skydelis
+  ui_kit: Ui Rinkinys
+  typography: Tipografija
+  components: Componentai
+  icons: Piktogramos
+  forms: Formos
+
+  more: Daugiau
+  tables: Lentelės
+  charts: Diagramos
+  maps: Žemėlapiai
+  mail: E-paštas
+
+  extras_main: Papildomai
+  pages: Puslapiai
+  extras: Priedai
+  multi_level: Daugiapakopis

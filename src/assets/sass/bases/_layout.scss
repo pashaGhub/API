@@ -1,0 +1,29 @@
+.section-container{
+  margin-top: $nav-height + 20;
+  margin-left: $nav-width-left + 15;
+
+  &--closed{
+    margin-left: 85px;
+  }
+}
+
+.row{
+  &--main{
+    margin-bottom: 15px;
+  }
+  &--users{
+    margin-bottom: 15px;
+  }
+}
+
+.boxes{
+  -webkit-box-shadow: $box-shadow;
+          box-shadow: $box-shadow;
+  border-radius: $border-radius;
+  background-color: $boxes-color;
+  padding: 15px;
+
+  .circle{
+    @include circle();
+  }
+}

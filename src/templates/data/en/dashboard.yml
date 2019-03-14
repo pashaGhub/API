@@ -1,0 +1,18 @@
+stats:
+  visits: Today's visits
+  revenue: Total revenue
+  sales: Today's sales
+  conversion: Conversion
+
+charts:
+  y_report: YEARLY SALES REPORT
+  revenue: TOTAL REVENUE
+
+table:
+  project: LATEST PROJECT
+  text: your awesome text goes here.
+
+users:
+  admin: Admin
+  user: User
+  moderator: Moderator

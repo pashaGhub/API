@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    {{#is default.lang 'lt'}}
+      <link rel="stylesheet" href="../assets/css/app.css">
+    {{else}}
+      <link rel="stylesheet" href="assets/css/app.css">
+    {{/is}}
+</head>
+<body>
+    {{>navbar}}
+    {{>sidenav}}
+
+    <div class="section-container" id="section-container">
+        {{body}}
+
+    </div>
+
+
+
+    <div class="svg-sprite-container">{{> 'sprite.symbol' }}</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+    <script src="assets/js/chart.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/app.js">
+
+    </script>
+
+</body>
+</html>

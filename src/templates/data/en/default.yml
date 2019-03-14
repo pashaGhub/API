@@ -1,0 +1,21 @@
+lang: en
+
+sidebar:
+  main: Main
+  dashboard: Dashboard
+  ui_kit: Ui Kit
+  typography: Typography
+  components: Components
+  icons: Icons
+  forms: Forms
+
+  more: More
+  tables: Tables
+  charts: Charts
+  maps: Maps
+  mail: Mail
+
+  extras_main: Extras
+  pages: pages
+  extras: Extras
+  multi_level: Multi Level
