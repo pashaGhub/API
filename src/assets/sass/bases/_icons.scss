@@ -48,6 +48,13 @@
       background-color: $color-secondary;
       border-color: $color-secondary-ol;
     }
+
+    &--profile{
+      border-color: $color-white;
+      -webkit-box-shadow: $border-shadow;
+              box-shadow: $border-shadow;
+    }
+
     .svg-icon{
       position: absolute;
       top: 50%;

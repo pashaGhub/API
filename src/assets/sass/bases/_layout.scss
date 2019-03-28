@@ -7,6 +7,20 @@
   }
 }
 
+.section-title{
+  &_nav{
+    a{
+      &:first-of-type{
+        &:after{
+          content: '/';
+        }
+      }
+    }
+  }
+
+  margin-bottom: 15px;
+}
+
 .row{
   &--main{
     margin-bottom: 15px;
@@ -23,19 +37,27 @@
   background-color: $boxes-color;
   padding: 15px;
 
+
   .circle{
     @include circle();
   }
+
+  margin-bottom: 15px;
 }
 .sidenav--closed{
   .topbar{
     .nav-bar{
       &--left {
-        width: 70px;
+        width: $width-closed;
         span {
           display: none;
         }
       }
     }
   }
+  .section-container{
+    margin-left: $width-closed + 15;
+  }
 }
+// div[class^="col"] - in the beginning
+// div[class*="col"] - whenever

@@ -1,0 +1,27 @@
+.login{
+  background-color: #fff;
+  &__title{
+    text-align: center;
+    margin: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    
+  }
+  &__form{
+    &__item{
+      position: relative;
+      margin-bottom: 20px;
+      @include default-input();
+      &--checkbox{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 20px;
+      }
+    }
+  }
+}

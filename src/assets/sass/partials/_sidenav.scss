@@ -11,10 +11,12 @@
   overflow: -moz-scrollbars-none;
   &::-webkit-scrollbar{
     display: none;
-  }  
+  }
   // font-family: "Gill Sans", sans-serif;
   // -webkit-box-shadow: $box-shadow;
   //         box-shadow: $box-shadow;
+  -webkit-transition: $transition;
+  transition: $transition;
 
   &__lists{
     &__list{
